@@ -6,7 +6,7 @@
 header{
     width: 100%;
     height: 100vh;
-    background-image: url("nat.jpg"); 
+    background-image: url("imgs/cover.jpg"); 
     
 }
 .navbar{
@@ -47,8 +47,8 @@ header{
     display: inline-block;
 }
 .nav-menu ul li a{
-    text-decoration: indianred;
     color: whitesmoke;
+    
 
 }
 .content{ 
