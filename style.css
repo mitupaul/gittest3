@@ -1,0 +1,66 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("nat.jpg"); 
+    
+}
+.navbar{
+    height: 15%;
+    background: wheat
+    display: flex;
+}
+
+.nav-left{
+    flex-basis: 30%;
+    background:rebeccapurple;
+    position: relative;
+
+}
+.nav-icons{
+    left: 5%;
+    right: 10%;
+    position: absolute ;
+}
+.nav-icons ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav-icons ul li i{
+    color: royalblue;
+}
+.nav-right{
+    flex-basis: 70%;
+    position: relative;
+}
+.nav-menu{
+    top: 20%;
+    right: 5%;
+    position: absolute;
+}
+
+.nav-menu ul li{ 
+    display: inline-block;
+}
+.nav-menu ul li a{
+    text-decoration: indianred;
+    color: whitesmoke;
+
+}
+.content{ 
+    height: 90%;
+    background: rosybrown;
+    display: flex;
+}
+.content-left{
+    flex-basis: 30%;
+    background: plum;
+}
+.content-right{
+    flex-basis: 70%;
+}
+ 
